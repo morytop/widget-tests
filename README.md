@@ -38,7 +38,7 @@ docker run -it --rm --ipc=host -v ${PWD}:/tests -w /tests mcr.microsoft.com/play
 
 #### Run test
 
-`yarn run dev`
+`yarn run test`
 
 ### Github Actions
 
