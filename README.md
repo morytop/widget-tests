@@ -38,5 +38,8 @@ docker run -it --rm --ipc=host -v ${PWD}:/tests -w /tests mcr.microsoft.com/play
 
 #### Run test
 
-```root@921ac7676524:/tests# yarn run test
-```
+`yarn run dev`
+
+### Github Actions
+
+Additionally I created a simple CI/CD to run test on push. This job install all dependencies and show the test result: pass or fail.
